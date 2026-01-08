@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/EvCharging.API/EvCharging.API.csproj" Id="eb5d4a38-6209-41e1-94f6-7f194a12a42a" />
+  <Project Path="src/EvCharging.Core/EvCharging.Core.csproj" Id="be683d93-4079-423d-9e55-1b88fbbcb972" />
+  <Project Path="src/EvCharging.Data/EvCharging.Data.csproj" Id="60b9b00c-469d-4d42-9b79-e8cf2006f206" />
+  <Project Path="src/EvCharging.Tests/EvCharging.Tests.csproj" Id="b91244cf-ed76-489a-b77c-d5e660b29ba4" />
+</Solution>
