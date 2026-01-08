@@ -1,0 +1,39 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+
+# Coverage
+coverage/
+coverage.cobertura.xml
+
+# Temporary files
+*.tmp
+*.temp
+
+# Publish output
+publish/
