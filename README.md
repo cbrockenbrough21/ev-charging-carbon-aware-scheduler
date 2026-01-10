@@ -111,6 +111,8 @@ POST /v1/charging-sessions/recommendation
 3. **Optimize Schedule**: Finds the charging window with lowest total emissions
 4. **Return Recommendation**: Provides start time, end time, and estimated emissions
 
+**Tie-breaking**: If multiple time windows have identical emissions, the earliest available time is chosen.
+
 ### Emissions Factors
 
 | Fuel Type   | kg CO₂ / kWh |

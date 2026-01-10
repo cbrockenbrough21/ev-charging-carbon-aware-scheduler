@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace EvCharging.Core.Domain;
 
-namespace EvCharging.Core.Domain
-{
-    internal class CarbonIntensityPoint
-    {
-    }
-}
+public sealed record CarbonIntensityPoint(
+    DateTime TimestampUtc,
+    double KgCo2PerKwh
+);
