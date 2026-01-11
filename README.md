@@ -149,18 +149,6 @@ Key interfaces:
 - `ICarbonIntensityProvider`: Abstracts data source
 - `ChargingPlanner`: Core optimization algorithm
 
-## Development Status
-
-🚧 **MVP Phase - Active Development**
-
-- [x] Project structure and plumbing
-- [x] API endpoints (skeleton)
-- [x] Test infrastructure
-- [ ] Domain models (CarbonIntensityPoint, ChargingRequest)
-- [ ] CSV data provider implementation
-- [ ] Charging planner algorithm
-- [ ] End-to-end integration
-
 ## Contributing
 
 This is a learning/portfolio project. Suggestions and improvements are welcome!
