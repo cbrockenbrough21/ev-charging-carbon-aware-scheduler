@@ -1,0 +1,6 @@
+interval_start_utc,fuel_mix.natural_gas,fuel_mix.solar,fuel_mix.wind,fuel_mix.large_hydro
+2025-12-15T08:00:00Z,5000,2000,1500,3000
+2025-12-15T10:00:00Z,0,0,0,0
+2025-12-15T11:00:00Z,0,0,0,0
+2025-12-15T12:00:00Z,0,0,0,0
+2025-12-15T14:00:00Z,4500,5000,1700,2800
