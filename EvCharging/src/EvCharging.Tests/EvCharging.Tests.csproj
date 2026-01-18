@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EvCharging.Core\EvCharging.Core.csproj" />
     <ProjectReference Include="..\EvCharging.Data\EvCharging.Data.csproj" />
+    <ProjectReference Include="..\EvCharging.API\EvCharging.API.csproj" />
   </ItemGroup>
 
   <ItemGroup>
