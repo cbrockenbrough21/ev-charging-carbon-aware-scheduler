@@ -1,6 +1,29 @@
 @EvCharging.API_HostAddress = http://localhost:5231
 
-GET {{EvCharging.API_HostAddress}}/weatherforecast/
-Accept: application/json
+### Get Charging Recommendation
+POST {{EvCharging.API_HostAddress}}/v1/charging-sessions/recommendation
+Content-Type: application/json
+
+{
+  "zone": "CAISO",
+  "windowStartUtc": "2025-12-15T06:00:00Z",
+  "windowEndUtc": "2025-12-15T18:00:00Z",
+  "kWhNeeded": 50.0,
+  "maxChargingKw": 7.2
+}
+
+###
+
+### Get Charging Recommendation - Different Scenario
+POST {{EvCharging.API_HostAddress}}/v1/charging-sessions/recommendation
+Content-Type: application/json
+
+{
+  "zone": "CAISO",
+  "windowStartUtc": "2025-12-15T20:00:00Z",
+  "windowEndUtc": "2025-12-16T08:00:00Z",
+  "kWhNeeded": 30.0,
+  "maxChargingKw": 11.0
+}
 
 ###
